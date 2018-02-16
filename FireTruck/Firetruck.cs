@@ -59,7 +59,7 @@ namespace FireTruck
                         Routes += "CASE " + (++_cases) + Environment.NewLine;
                         
                         _pathCount = 0;
-                        _arrOfVisitedNodes[1] = 1; // initializing that our first node is Firestation1
+                        _arrOfVisitedNodes[1] = 1; // initializing that our first node is Firestation1 tgtgx
                         CalculateRoutes(1, 0); // 1 & 0 ??
                         Routes += "There are " + _pathCount + " routes from the firestation 1 to streetcorner " + _fireDestination + Environment.NewLine+Environment.NewLine;
                        
