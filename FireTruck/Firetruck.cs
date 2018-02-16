@@ -54,7 +54,7 @@ namespace FireTruck
                         _arrayOfAdjacentCorners[_firstCorner, _secondCorner] = _arrayOfAdjacentCorners[_secondCorner, _firstCorner] = 1;  // we show
                                                                                                                                           //that we can move in both directions withn one route
                     }
-                    else // if there is 1 zero of  corners   or if there are 2 zeros (means finish)
+                    else // if there is 1 zero of  corners   or if there are 2 zeros (means finish))
                     {
                         Routes += "CASE " + (++_cases) + Environment.NewLine;
                         
